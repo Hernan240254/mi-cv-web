@@ -1,19 +1,20 @@
 /* Estilos generales */
 body {
-    .perfil {
-    display: block;
-    margin: 10px auto;
-    width: 1px;
-    height: auto;    
-    border-radius: 50%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
     font-family: 'Arial', sans-serif;
     margin: 20px;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+}
+
+/* Estilos para la imagen de perfil */
+.perfil {
+    display: block;
+    margin: 20px auto;
+    width: 100px; /* Ajusta este valor si sigue siendo grande */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilo del menú de navegación */
@@ -32,42 +33,4 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-nav ul li a:hover {
-    background-color: #023e8a;
-}
-
-/* Secciones con diseño moderno */
-section {
-    margin: 40px auto;
-    padding: 20px;
-    max-width: 800px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-h2 {
-    color: #0077b6;
-    border-bottom: 2px solid #0077b6;
-    padding-bottom: 5px;
-}
-
-/* Ajuste del contacto */
-#contacto {
-    text-align: center;
-    background-color: #0077b6;
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
 }
