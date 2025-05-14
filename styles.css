@@ -1,5 +1,13 @@
 /* Estilos generales */
 body {
+    .perfil {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
     font-family: 'Arial', sans-serif;
     margin: 20px;
     padding: 0;
