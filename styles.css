@@ -1,25 +1,28 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
+    font-family: Arial, sans-serif;
+    margin: 20px;
     padding: 0;
-    text-align: center;
 }
 
-header {
-    background-color: #2C3E50;
-    color: white;
-    padding: 30px;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
 }
 
-h1, h2, h3 {
-    margin: 10px;
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
 }
 
 section {
-    background: white;
+    margin-bottom: 40px;
     padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
