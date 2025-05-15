@@ -8,6 +8,17 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div id="contenido"></div> <!-- Aquí se mostrará el contenido de Markdown -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.10/marked.min.js"></script>
+<script>
+    fetch("contenido.md")
+        .then(response => response.text())
+        .then(markdown => {
+            document.getElementById("contenido").innerHTML = marked.parse(markdown);
+        });
+</script>
+
             <li><a href="#contacto">Contacto</a></li>
 <img src="20240220_093236.jpg" alt="Foto de Hernan" class="perfil">
     <nav>
